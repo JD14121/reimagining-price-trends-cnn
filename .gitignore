@@ -1,0 +1,12 @@
+# Image data (download separately, ~8.5 GB unpacked)
+data/
+# Large generated outputs
+gradcam_ext/predictions/
+gradcam_ext/results/gradcam_images.csv
+gradcam_ext/logs/
+*.log
+# Python
+__pycache__/
+*.pyc
+.venv*/
+.python/

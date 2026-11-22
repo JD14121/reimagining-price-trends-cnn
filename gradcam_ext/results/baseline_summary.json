@@ -1,0 +1,494 @@
+{
+  "histories": {
+    "full_seed1": {
+      "best_epoch": 9,
+      "epochs": 11,
+      "best_val_loss": 0.6869078874588013,
+      "best_val_accuracy": 0.5427355766296387
+    },
+    "full_seed2": {
+      "best_epoch": 6,
+      "epochs": 8,
+      "best_val_loss": 0.6883493661880493,
+      "best_val_accuracy": 0.5383580923080444
+    },
+    "full_seed3": {
+      "best_epoch": 7,
+      "epochs": 9,
+      "best_val_loss": 0.6879850029945374,
+      "best_val_accuracy": 0.5403340458869934
+    },
+    "full_seed4": {
+      "best_epoch": 5,
+      "epochs": 7,
+      "best_val_loss": 0.6892791390419006,
+      "best_val_accuracy": 0.5353941321372986
+    },
+    "full_seed5": {
+      "best_epoch": 5,
+      "epochs": 7,
+      "best_val_loss": 0.6903848052024841,
+      "best_val_accuracy": 0.5315595269203186
+    },
+    "no_volume_seed1": {
+      "best_epoch": 9,
+      "epochs": 11,
+      "best_val_loss": 0.6879516839981079,
+      "best_val_accuracy": 0.5385439395904541
+    },
+    "no_volume_seed2": {
+      "best_epoch": 6,
+      "epochs": 8,
+      "best_val_loss": 0.6893446445465088,
+      "best_val_accuracy": 0.5326991677284241
+    },
+    "no_volume_seed3": {
+      "best_epoch": 7,
+      "epochs": 9,
+      "best_val_loss": 0.6890775561332703,
+      "best_val_accuracy": 0.5355310440063477
+    },
+    "no_volume_seed4": {
+      "best_epoch": 5,
+      "epochs": 7,
+      "best_val_loss": 0.690800666809082,
+      "best_val_accuracy": 0.5305030345916748
+    },
+    "no_volume_seed5": {
+      "best_epoch": 5,
+      "epochs": 7,
+      "best_val_loss": 0.6911186575889587,
+      "best_val_accuracy": 0.5276466608047485
+    }
+  },
+  "ensemble_full": [
+    {
+      "period": "2000-2019",
+      "group": "all",
+      "months": 240,
+      "count": 1490937,
+      "full_auc": 0.5339527088760022,
+      "full_accuracy": 0.5268829058734866,
+      "full_logloss": 0.6912988045730373,
+      "full_spread": 0.016358529959755366,
+      "full_sharpe": 1.6757313974021106,
+      "constant_accuracy": 0.521531123082369,
+      "constant_logloss": 0.692231136554467
+    },
+    {
+      "period": "2000-2019",
+      "group": "small",
+      "months": 240,
+      "count": 372639,
+      "full_auc": 0.5440348863005966,
+      "full_accuracy": 0.5358175909153663,
+      "full_logloss": 0.6893100591538533,
+      "full_spread": 0.035282806799082474,
+      "full_sharpe": 2.166205392768313,
+      "constant_accuracy": 0.4804766422796677,
+      "constant_logloss": 0.6953763519857397
+    },
+    {
+      "period": "2000-2019",
+      "group": "large",
+      "months": 240,
+      "count": 372639,
+      "full_auc": 0.5086687594379455,
+      "full_accuracy": 0.5259384390148744,
+      "full_logloss": 0.691840686820753,
+      "full_spread": 0.002811711271936015,
+      "full_sharpe": 0.36754880238533577,
+      "constant_accuracy": 0.5475936187625898,
+      "constant_logloss": 0.6902344686636989
+    },
+    {
+      "period": "2000-2009",
+      "group": "all",
+      "months": 120,
+      "count": 818549,
+      "full_auc": 0.5365932697721543,
+      "full_accuracy": 0.5330577872295325,
+      "full_logloss": 0.6898743887225287,
+      "full_spread": 0.022323680287165647,
+      "full_sharpe": 1.8508016516165025,
+      "constant_accuracy": 0.5093290673701522,
+      "constant_logloss": 0.6931659454515456
+    },
+    {
+      "period": "2000-2009",
+      "group": "small",
+      "months": 120,
+      "count": 204587,
+      "full_auc": 0.5461977840315966,
+      "full_accuracy": 0.5433778460732085,
+      "full_logloss": 0.6877637567059132,
+      "full_spread": 0.04660719218188122,
+      "full_sharpe": 2.257203372560643,
+      "constant_accuracy": 0.47371521466771854,
+      "constant_logloss": 0.6958943501688061
+    },
+    {
+      "period": "2000-2009",
+      "group": "large",
+      "months": 120,
+      "count": 204587,
+      "full_auc": 0.5113066401243881,
+      "full_accuracy": 0.5290968822434898,
+      "full_logloss": 0.6910504242980754,
+      "full_spread": 0.005349453009572358,
+      "full_sharpe": 0.582848604575634,
+      "constant_accuracy": 0.5297797709530044,
+      "constant_logloss": 0.6915992012805918
+    },
+    {
+      "period": "2010-2019",
+      "group": "all",
+      "months": 120,
+      "count": 672388,
+      "full_auc": 0.5313121479798502,
+      "full_accuracy": 0.5207080245174407,
+      "full_logloss": 0.692723220423546,
+      "full_spread": 0.010343252318669371,
+      "full_sharpe": 1.647037665513476,
+      "constant_accuracy": 0.5337331787945858,
+      "constant_logloss": 0.6912963276573884
+    },
+    {
+      "period": "2010-2019",
+      "group": "small",
+      "months": 120,
+      "count": 168052,
+      "full_auc": 0.5418719885695966,
+      "full_accuracy": 0.5282573357575243,
+      "full_logloss": 0.6908563616017934,
+      "full_spread": 0.023863258513907276,
+      "full_sharpe": 2.6146846039656904,
+      "constant_accuracy": 0.4872380698916168,
+      "constant_logloss": 0.6948583538026731
+    },
+    {
+      "period": "2010-2019",
+      "group": "large",
+      "months": 120,
+      "count": 168052,
+      "full_auc": 0.506030878751503,
+      "full_accuracy": 0.5227799957862589,
+      "full_logloss": 0.6926309493434305,
+      "full_spread": 0.00025264397347919844,
+      "full_sharpe": 0.04467138256910995,
+      "constant_accuracy": 0.5654074665721751,
+      "constant_logloss": 0.6888697360468059
+    }
+  ],
+  "pooled_accuracy_full": 0.5273569574032974,
+  "per_seed": {
+    "full_seed1": {
+      "auc": 0.5327558029684591,
+      "accuracy": 0.5270512652199796,
+      "sharpe": 1.7480600109303088,
+      "spread": 0.018484481569195327
+    },
+    "full_seed2": {
+      "auc": 0.5283662316274383,
+      "accuracy": 0.5209362849485705,
+      "sharpe": 1.4701746533327376,
+      "spread": 0.01316693639124806
+    },
+    "full_seed3": {
+      "auc": 0.5295847948524163,
+      "accuracy": 0.5268219041872648,
+      "sharpe": 1.5510631445237075,
+      "spread": 0.01256697836349554
+    },
+    "full_seed4": {
+      "auc": 0.5282783810854338,
+      "accuracy": 0.5249713834016108,
+      "sharpe": 1.645505328765342,
+      "spread": 0.01418184384570519
+    },
+    "full_seed5": {
+      "auc": 0.5291779917993291,
+      "accuracy": 0.5139665914385149,
+      "sharpe": 1.375293608258973,
+      "spread": 0.012048619305282417
+    },
+    "no_volume_seed1": {
+      "auc": 0.5237517151760739,
+      "accuracy": 0.5177832585269927,
+      "sharpe": 1.8451541848032214,
+      "spread": 0.01360475910205337
+    },
+    "no_volume_seed2": {
+      "auc": 0.51999410048155,
+      "accuracy": 0.5097679269680186,
+      "sharpe": 1.2625552982710908,
+      "spread": 0.008279803788964554
+    },
+    "no_volume_seed3": {
+      "auc": 0.5211149399811046,
+      "accuracy": 0.5181181736726523,
+      "sharpe": 1.0113555001154948,
+      "spread": 0.00788026801475776
+    },
+    "no_volume_seed4": {
+      "auc": 0.5166728632995269,
+      "accuracy": 0.5161021416019189,
+      "sharpe": 1.5336737093365795,
+      "spread": 0.008475840069910184
+    },
+    "no_volume_seed5": {
+      "auc": 0.5177948141963407,
+      "accuracy": 0.5012395346766644,
+      "sharpe": 1.1968307142006347,
+      "spread": 0.007924399902851468
+    }
+  },
+  "volume_ablation": [
+    {
+      "period": "2000-2019",
+      "group": "all",
+      "months": 240,
+      "count": 1490937,
+      "full_minus_no_volume_auc": 0.010330635248962789,
+      "bootstrap_95": [
+        0.008574237189735441,
+        0.012093987760627294
+      ],
+      "full_auc": 0.5339527088760022,
+      "full_accuracy": 0.5268829058734866,
+      "full_logloss": 0.6912988045730373,
+      "full_spread": 0.016358529959755366,
+      "full_sharpe": 1.6757313974021106,
+      "no_volume_auc": 0.5236220736270394,
+      "no_volume_accuracy": 0.5157964063226355,
+      "no_volume_logloss": 0.6931315887734598,
+      "no_volume_spread": 0.010834779159514507,
+      "no_volume_sharpe": 1.5225245872882278,
+      "constant_auc": 0.5,
+      "constant_accuracy": 0.521531123082369,
+      "constant_logloss": 0.692231136554467
+    },
+    {
+      "period": "2000-2019",
+      "group": "small",
+      "months": 240,
+      "count": 372639,
+      "full_minus_no_volume_auc": 0.006367518129184065,
+      "bootstrap_95": [
+        0.004950857725075787,
+        0.007735217850291829
+      ],
+      "full_auc": 0.5440348863005966,
+      "full_accuracy": 0.5358175909153663,
+      "full_logloss": 0.6893100591538533,
+      "full_spread": 0.035282806799082474,
+      "full_sharpe": 2.166205392768313,
+      "no_volume_auc": 0.5376673681714125,
+      "no_volume_accuracy": 0.528952341289176,
+      "no_volume_logloss": 0.6904999675398801,
+      "no_volume_spread": 0.029598870437987146,
+      "no_volume_sharpe": 2.7289673686416887,
+      "constant_auc": 0.5,
+      "constant_accuracy": 0.4804766422796677,
+      "constant_logloss": 0.6953763519857397
+    },
+    {
+      "period": "2000-2019",
+      "group": "large",
+      "months": 240,
+      "count": 372639,
+      "full_minus_no_volume_auc": 0.0019764778513987054,
+      "bootstrap_95": [
+        -0.0006332062543178262,
+        0.004503779097448177
+      ],
+      "full_auc": 0.5086687594379455,
+      "full_accuracy": 0.5259384390148744,
+      "full_logloss": 0.691840686820753,
+      "full_spread": 0.002811711271936015,
+      "full_sharpe": 0.36754880238533577,
+      "no_volume_auc": 0.5066922815865468,
+      "no_volume_accuracy": 0.50892789819703,
+      "no_volume_logloss": 0.6945333387420346,
+      "no_volume_spread": 0.0017278238121806986,
+      "no_volume_sharpe": 0.20525943898685278,
+      "constant_auc": 0.5,
+      "constant_accuracy": 0.5475936187625898,
+      "constant_logloss": 0.6902344686636989
+    },
+    {
+      "period": "2000-2019",
+      "group": "small_minus_large",
+      "months": 240,
+      "full_minus_no_volume_auc": 0.0043910402777853595,
+      "bootstrap_95": [
+        0.0014674213636113496,
+        0.007423736004120307
+      ]
+    },
+    {
+      "period": "2000-2009",
+      "group": "all",
+      "months": 120,
+      "count": 818549,
+      "full_minus_no_volume_auc": 0.00968261928158748,
+      "bootstrap_95": [
+        0.007456435625548215,
+        0.01207070735914132
+      ],
+      "full_auc": 0.5365932697721543,
+      "full_accuracy": 0.5330577872295325,
+      "full_logloss": 0.6898743887225287,
+      "full_spread": 0.022323680287165647,
+      "full_sharpe": 1.8508016516165025,
+      "no_volume_auc": 0.5269106504905667,
+      "no_volume_accuracy": 0.5266074746063542,
+      "no_volume_logloss": 0.691138998257887,
+      "no_volume_spread": 0.015210331699715363,
+      "no_volume_sharpe": 1.91026679554796,
+      "constant_auc": 0.5,
+      "constant_accuracy": 0.5093290673701522,
+      "constant_logloss": 0.6931659454515456
+    },
+    {
+      "period": "2000-2009",
+      "group": "small",
+      "months": 120,
+      "count": 204587,
+      "full_minus_no_volume_auc": 0.006184349563403273,
+      "bootstrap_95": [
+        0.004056546253484222,
+        0.008356484683311518
+      ],
+      "full_auc": 0.5461977840315966,
+      "full_accuracy": 0.5433778460732085,
+      "full_logloss": 0.6877637567059132,
+      "full_spread": 0.04660719218188122,
+      "full_sharpe": 2.257203372560643,
+      "no_volume_auc": 0.5400134344681933,
+      "no_volume_accuracy": 0.5371906399698332,
+      "no_volume_logloss": 0.6891110761292657,
+      "no_volume_spread": 0.038584703580045655,
+      "no_volume_sharpe": 3.126628869246678,
+      "constant_auc": 0.5,
+      "constant_accuracy": 0.47371521466771854,
+      "constant_logloss": 0.6958943501688061
+    },
+    {
+      "period": "2000-2009",
+      "group": "large",
+      "months": 120,
+      "count": 204587,
+      "full_minus_no_volume_auc": 0.0026413466690141992,
+      "bootstrap_95": [
+        -0.0011873070104230431,
+        0.006284441457761933
+      ],
+      "full_auc": 0.5113066401243881,
+      "full_accuracy": 0.5290968822434898,
+      "full_logloss": 0.6910504242980754,
+      "full_spread": 0.005349453009572358,
+      "full_sharpe": 0.582848604575634,
+      "no_volume_auc": 0.5086652934553738,
+      "no_volume_accuracy": 0.5206243237035199,
+      "no_volume_logloss": 0.6922989692666363,
+      "no_volume_spread": 0.0019258169462742294,
+      "no_volume_sharpe": 0.18670866009410758,
+      "constant_auc": 0.5,
+      "constant_accuracy": 0.5297797709530044,
+      "constant_logloss": 0.6915992012805918
+    },
+    {
+      "period": "2000-2009",
+      "group": "small_minus_large",
+      "months": 120,
+      "full_minus_no_volume_auc": 0.003543002894389074,
+      "bootstrap_95": [
+        -0.0006369357638572604,
+        0.008002486112109687
+      ]
+    },
+    {
+      "period": "2010-2019",
+      "group": "all",
+      "months": 120,
+      "count": 672388,
+      "full_minus_no_volume_auc": 0.010978651216338096,
+      "bootstrap_95": [
+        0.008437154307403489,
+        0.013550551933665462
+      ],
+      "full_auc": 0.5313121479798502,
+      "full_accuracy": 0.5207080245174407,
+      "full_logloss": 0.692723220423546,
+      "full_spread": 0.010343252318669371,
+      "full_sharpe": 1.647037665513476,
+      "no_volume_auc": 0.5203334967635121,
+      "no_volume_accuracy": 0.5049853380389167,
+      "no_volume_logloss": 0.6951241792890327,
+      "no_volume_spread": 0.006422457270236333,
+      "no_volume_sharpe": 1.0864230290479364,
+      "constant_auc": 0.5,
+      "constant_accuracy": 0.5337331787945858,
+      "constant_logloss": 0.6912963276573884
+    },
+    {
+      "period": "2010-2019",
+      "group": "small",
+      "months": 120,
+      "count": 168052,
+      "full_minus_no_volume_auc": 0.006550686694964856,
+      "bootstrap_95": [
+        0.004719734970295746,
+        0.008314118672628032
+      ],
+      "full_auc": 0.5418719885695966,
+      "full_accuracy": 0.5282573357575243,
+      "full_logloss": 0.6908563616017934,
+      "full_spread": 0.023863258513907276,
+      "full_sharpe": 2.6146846039656904,
+      "no_volume_auc": 0.5353213018746317,
+      "no_volume_accuracy": 0.5207140426085188,
+      "no_volume_logloss": 0.6918888589504946,
+      "no_volume_spread": 0.02053752609305419,
+      "no_volume_sharpe": 2.455630610907137,
+      "constant_auc": 0.5,
+      "constant_accuracy": 0.4872380698916168,
+      "constant_logloss": 0.6948583538026731
+    },
+    {
+      "period": "2010-2019",
+      "group": "large",
+      "months": 120,
+      "count": 168052,
+      "full_minus_no_volume_auc": 0.001311609033783212,
+      "bootstrap_95": [
+        -0.002356360662814331,
+        0.005014206099852501
+      ],
+      "full_auc": 0.506030878751503,
+      "full_accuracy": 0.5227799957862589,
+      "full_logloss": 0.6926309493434305,
+      "full_spread": 0.00025264397347919844,
+      "full_sharpe": 0.04467138256910995,
+      "no_volume_auc": 0.5047192697177197,
+      "no_volume_accuracy": 0.4972314726905403,
+      "no_volume_logloss": 0.6967677082174328,
+      "no_volume_spread": 0.0015281668702376422,
+      "no_volume_sharpe": 0.25604991991917264,
+      "constant_auc": 0.5,
+      "constant_accuracy": 0.5654074665721751,
+      "constant_logloss": 0.6888697360468059
+    },
+    {
+      "period": "2010-2019",
+      "group": "small_minus_large",
+      "months": 120,
+      "full_minus_no_volume_auc": 0.005239077661181644,
+      "bootstrap_95": [
+        0.0012358473714723002,
+        0.009164640553278796
+      ]
+    }
+  ]
+}

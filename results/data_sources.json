@@ -1,0 +1,15 @@
+{
+  "img_data.zip": {
+    "bytes": 567446780,
+    "sha256": "be0e9bb378d705c3c842bdadcd6a9961a0a768603e9eda9c099228a07f360dcc",
+    "image_label_members": 54,
+    "expanded_bytes": 8543241294
+  },
+  "img_data_course.zip": {
+    "bytes": 802857615,
+    "sha256": "407ffea5497ae07dcf7a9850fc68bf6be5386f62787d8825458ac74885cff967",
+    "image_label_members": 54,
+    "expanded_bytes": 8801299710
+  },
+  "cross_check": "27 image CRC32 and sizes match. All values in the eight common label columns match in all 27 years in the same row order."
+}
